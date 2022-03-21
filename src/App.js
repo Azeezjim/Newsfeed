@@ -6,6 +6,7 @@ import Cardtop from "./components/Cardtop/Cardtop";
 import Profiles from "./components/Profiles/Profiles";
 import Cardbody from "./components/Caedbody/Cardbody"; 
 import Cardfooter from "./components/Cardfooter/Cardfooter";
+import Content from "./components/Content/Content";
 
 
 function App() {
@@ -16,10 +17,15 @@ function App() {
           <Leftnav />
           <div className="space-y-4"> 
             <Profiles />
-            <div className="">
-              <Cardtop />
-              <Cardbody />
-              <Cardfooter />
+            <div className="flex space-x-5">
+              <div>
+                <Cardtop />
+                <Cardbody />
+                <Cardfooter />
+              </div>
+              <div>
+                <Content />
+              </div>
             </div>
           </div>
           <Rightnav />

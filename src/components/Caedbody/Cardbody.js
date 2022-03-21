@@ -8,7 +8,7 @@ function Cardbody() {
       adipisci libero quo explicabo, illum, temporibus iusto. Deserunt, adipisci suscipit incidunt aspernatur ratione 
       quaerat officiis ducimus perspiciatis quae et possimus laborum, libero esse repellendus iusto consequuntur qui? 
       Animi, quos?! <span className='mt-1 text-xs font-bold text-red-600'>Read more...</span></p>
-      <img src="photos/2022.avif" alt="2022" className="cover" />
+      <img src="photos/2022.jpg" alt="2022" className="bg-cover" />
     </div>
   )
 }
