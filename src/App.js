@@ -7,7 +7,8 @@ import Profiles from "./components/Profiles/Profiles";
 import Cardbody from "./components/Caedbody/Cardbody"; 
 import Cardfooter from "./components/Cardfooter/Cardfooter";
 import Content from "./components/Content/Content";
-import Trending from "./components/Trending/Trending"
+import Trending from "./components/Trending/Trending";
+import Channels from "./components/Channels/Channals";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <div className="space-y-2">
                 <Content />
                 <Trending />
+                <Channels />
               </div>
             </div>
           </div>
