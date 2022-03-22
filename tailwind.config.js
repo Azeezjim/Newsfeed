@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontSize: {
-      'xs': '.5rem',
-      'sm': '.875rem',
+      'xs': '.45rem',
+      'sm': '.6rem',
       'tiny': '.875rem',
       'base': '1rem',
       'lg': '1.125rem',
@@ -15,7 +15,10 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
       '7xl': '5rem',
-    }
+    },
+    colors: {
+      'sky-blue': '#0e7490',
+    },
   },
   variants: {
     extend: {},
