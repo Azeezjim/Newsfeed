@@ -8,13 +8,13 @@ function Rightnav() {
   return (
     <div>
       <div className="">
-        <ul className="space-y-4 m-3 p-3 ">
-          <li className='flex flex-row space-x-2 '> <AiFillHome className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2' /> <p className="text-lg font-bold ">News Feed</p></li>
-          <li className='flex flex-row space-x-2 ' > <MdOutlineExplore className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2 ' /><p className="text-lg font-bold ">Explore</p></li>
-          <li className='flex flex-row space-x-2 ' > <RiLiveFill className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2 '/> <p className="text-lg font-bold ">Live</p></li>
-          <li className='flex flex-row space-x-2 ' > <BsDisplay className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2 '/><p className="text-lg font-bold ">Channels</p> </li>
-          <li className='flex flex-row space-x-2 ' > <MdGroups className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2 '/><p className="text-lg font-bold ">Group</p> </li>
-          <li className='flex flex-row space-x-2 ' ><BsCollectionPlayFill className=' bg-red-600 b0rded-red-600 rounded-full text-white mt-2 '/><p className="text-lg font-bold ">Playhub</p></li>
+        <ul className="space-y-3 p-3 mx-2 my-1.5 ">
+          <li className='flex flex-row space-x-2 '> <span className="icon-style"><AiFillHome size={12} color="white" /></span> <p className="text-sm font-bold mt-1.5 ">News Feed</p></li>
+          <li className='flex flex-row space-x-2 ' > <span className="icon-style"><MdOutlineExplore size={12} color="white" /></span><p className="text-sm font-bold mt-1.5  ">Explore</p></li>
+          <li className='flex flex-row space-x-2 ' > <span className="icon-style"><RiLiveFill size={12} color="white" /></span><p className="text-sm font-bold mt-1.5  ">Live</p></li>
+          <li className='flex flex-row space-x-2 ' > <span className="icon-style"><BsDisplay size={12} color="white" /></span><p className="text-sm font-bold mt-1.5  ">Channels</p> </li>
+          <li className='flex flex-row space-x-2 ' > <span className="icon-style"><MdGroups size={12} color="white" /></span><p className="text-sm font-bold mt-1.5  ">Group</p> </li>
+          <li className='flex flex-row space-x-2 ' > <span className="icon-style"><BsCollectionPlayFill size={12} color="white" /></span><p className="text-sm font-bold mt-1.5  ">Playhub</p></li>
         </ul>
       </div>
     </div>
