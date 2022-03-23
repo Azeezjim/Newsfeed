@@ -9,6 +9,8 @@ import Trending from "./components/Trending/Trending";
 import Channels from "./components/Channels/Channals";
 import Card from "./components/Card";
 import Groups from "./components/Groups/Groups";
+import Catigories from "./components/Catigories/Catigories";
+import Comment from "./components/Comment/Comment";
 
 
 function App() {
@@ -22,9 +24,10 @@ function App() {
             <Profiles />
             <div className="flex space-x-5">
               <div>
-                {CardData.map((card, i) => {
+                {CardData.map((card, i) => 
+                  
                 <Card key={i} card={card} />
-                })}
+                )}
               </div>
               <div className="space-y-2">
                 <Content />
@@ -33,6 +36,8 @@ function App() {
                 <Groups />
               </div>
             </div>
+            <Catigories />
+            <Comment />
           </div>
           <Rightnav />
         </div>
