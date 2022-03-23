@@ -8,7 +8,8 @@ export default function Comment() {
       </div>
 
       <div>
-        
+        <img src="images/person1.webp" alt="person1" className="rounded-full" />
+        <p> <span className="text-xsm text-bold">@devAzeezjim</span>laern jsd husbndgdyv gvdgbhj hbyusdgyub ygadgb hhysh saniuahyuisa NHAS8G </p>
       </div>
     </div>
     
